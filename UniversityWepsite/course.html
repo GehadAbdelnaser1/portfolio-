@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images\logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <div class="fa"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div>
+                
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="fa"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div>
+            
+
+        </nav>
+        <h1>Our Courses</h1>
+        
+    </section>
+    <!-- -----------Course-------- -->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam blanditiis dolorem odio tenetur minus dolor commodi eaque eligendi pariatur ex esse dicta fuga, eveniet, laborum corrupti aut nobis. Architecto, perferendis!</p>
+    
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam blanditiis dolorem odio tenetur minus dolor commodi eaque eligendi pariatur ex esse dicta fuga, eveniet, laborum corrupti aut nobis. Architecto, perferendis!</p>
+    
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam blanditiis dolorem odio tenetur minus dolor commodi eaque eligendi pariatur ex esse dicta fuga, eveniet, laborum corrupti aut nobis. Architecto, perferendis!</p>
+    
+            </div>
+    
+        </div>
+        
+    </section>
+    <!-- --------facilities----- -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+        <img src="images\\library.png">
+        <h3>Wold Class Library</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus asperiores totam minima corrupti incidunt culpa enim voluptas, obcaecati sint libero consequatur voluptatibus ipsum sapiente accusantium nihil temporibus suscipit provident.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images\\basketball.png">
+        <h3>Largest Play Ground</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus asperiores totam minima corrupti incidunt culpa enim voluptas, obcaecati sint libero consequatur voluptatibus ipsum sapiente accusantium nihil temporibus suscipit provident.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images\\cafeteria.png">
+        <h3>Tasty And Helthy Food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus asperiores totam minima corrupti incidunt culpa enim voluptas, obcaecati sint libero consequatur voluptatibus ipsum sapiente accusantium nihil temporibus suscipit provident.</p>
+    </div>
+    </div>
+</section>
+
+
+
+
+<!-- -------footer------->
+<footer>
+    <h4>About Us</h4>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nam a dolore, nostrum ipsam exercitationem nulla corrupti itaque debitis eligendi totam, suscipit minima laudantium! Illo, delectus quo distinctio perspiciatis a consequuntur.
+    </p>
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100009577784514&mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/gehad.abd.elnaser"><i class="fa-brands fa-instagram"></i></a>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-solid fa-envelope"></i>
+        
+    </div>
+    <p>Made By <i class="fa-regular fa-heart"></i> Gehad Abdelnaser</p>
+</footer>
+
+    <!---------javaScriptForTheMenu-------->
+<script>
+    var navLinks =document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
