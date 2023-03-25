@@ -236,12 +236,16 @@ section {
 /* .footer-title span {
     color: #b8bfba;
 } */
-footer .social-icons a {
+.footer a {
     color: #eff2eb;
     font-size: 1.3em;
     transition: 0.8s ease;
     padding: 1em;
 
+}
+}
+footer .social-icons{
+  margin: 0.6em;
 }
 
 footer .social-icons a:hover {
