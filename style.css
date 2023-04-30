@@ -29,12 +29,15 @@ header {
     font-weight: 500;
     font-size: 1.1em;
     padding: 0 10px;
-    border: #731a22 2px solid;
-    border-radius: 10px;
+    border: #731a22 1px solid ;
+    border-radius: 5px;
     transition: 0.7s ease;
+
 }
 .nav a:hover{
     border-color: #e5ebe7;
+    /* font-size: 1.3em; */
+
 }
 section {
     padding: 100px 200px;
@@ -43,7 +46,7 @@ section {
 .main {
     width: 100%;
     min-height: 100vh;
-    height: auto;
+    /* height: auto; */
     display: flex;
     align-items: center;
     background-image: linear-gradient(rgba(8, 11, 22, 0.7),rgba(8, 11, 22, 0.7)),url(images/img8.png) ;  
@@ -82,7 +85,7 @@ section {
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 40px;
-    transition: 0.7s ease;
+    transition: 0.6s ease;
 
 }
 
@@ -94,11 +97,16 @@ section {
 .main .social-icons a{
     color:#b8bfba ;
     font-size: 1.7em;
-    padding: 1em;
+    letter-spacing: 1px;
+    /* padding: 1em; */
+    padding: 0 0.2em;
     transition: 0.6s ease;
 }
-.social-icons a:hover {
-    color: #731a22;
+.main .social-icons a:hover {
+    /* color: #731a22; */
+    font-size: 2.6em;
+    transform: scale(1.1);
+    
 }
 
 
@@ -204,7 +212,7 @@ section {
     color: #251f26 ;
 
 }
-/* -----contect--- */
+/* -----contact--- */
 .contect .icon {
     font-size: 4.5em;
 
@@ -223,14 +231,14 @@ section {
 .footer {
     background-color: #731a22;
     color: #eff2eb;
-    padding: 1.3em;
+    padding: 1.1em;
     display: flex;
     justify-content: space-between;
 }
 .footer-title {
     font-size: 1.2em;
     font-weight: 600;
-/*     padding-top: 0.5em */
+    padding-top: 0.5em
 
 }
 /* .footer-title span {
@@ -238,19 +246,17 @@ section {
 } */
 .footer a {
     color: #eff2eb;
-    font-size: 1.3em;
+    font-size: 1.4em;
     transition: 0.8s ease;
     padding: 1em;
-
-}
 }
 footer .social-icons{
   margin: 0.6em;
 }
 
-footer .social-icons a:hover {
+/* .footer .social-icons a:hover {
     color: #e7ca00;
-}
+} */
 
 
 
@@ -291,6 +297,7 @@ footer .social-icons a:hover {
     .main-content h3{
         font-size: 1.4em;
     }
+
 }
 @media (max-width:300px){
     body {
