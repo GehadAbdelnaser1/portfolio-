@@ -89,8 +89,10 @@ table{
     text-align: center;
     margin: 0.6em 0;
 }
+
 table th{
     text-transform: uppercase;
+    
 }
 th,td{
     padding: 0.3em;
@@ -105,6 +107,8 @@ footer{
     margin: 0.6em 0;
     width: 80%;
     margin: auto;
+    position:relative;
+    bottom: 0.5em;
 }
 
 footer p ,.link{
@@ -114,11 +118,14 @@ footer p ,.link{
     font-size: 1.5em;
     margin: auto;
     display: inline;
-    padding: 10px;
+    padding: 1px;
     font-weight: bold;
 }
 
+@media screen and (max-width: 700px){
+  table,th , tr  {
+    font-size: smaller;
 
-
-
+}
+}
 
